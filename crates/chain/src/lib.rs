@@ -29,6 +29,7 @@ pub mod sparse_chain;
 mod tx_data_traits;
 pub mod tx_graph;
 pub use tx_data_traits::*;
+pub mod spk_iter;
 
 #[doc(hidden)]
 pub mod example_utils;
